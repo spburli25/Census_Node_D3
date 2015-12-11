@@ -51,7 +51,7 @@ var csvtojson = function(csv) {
        for(state in states) {
          var currentState = states[state];
          result.push( {
-           'state': state.split("-")[1].trim(),
+           'state': state.replace("State -", "").trim(),
             'LiterateMale' : currentState.literateMales,
             'LiterateFemale' : currentState.literateFemales,
             'IlliterateMale' : currentState.illiterateMales,

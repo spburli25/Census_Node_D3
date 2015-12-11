@@ -9,4 +9,12 @@
 }
 h2{
   text-align: center;
+  margin-bottom: 0px;
+}
+h2 a{
+  margin-right: 20px;
+  color: black
+}
+h2 a :hover{
+  color: green;
 }

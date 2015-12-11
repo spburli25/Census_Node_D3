@@ -9,7 +9,7 @@ var y = d3.scale.linear()
     .rangeRound([height, 0]);
 
 var color = d3.scale.ordinal()
-    .range(["#6b486b", "#a05d56", "#98abc5", "#8a89a6", "#7b6888", "#d0743c", "#ff8c00"]);
+    .range(["#a05d56","#ff9933","#cccccc","#cccc99",	"#ff0000" , "#6b486b", "#a05d56", "#98abc5", "#8a89a6", "#7b6888", "#d0743c", "#ff8c00"]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -26,7 +26,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("../json/Json_Statewise.json", function(error, data) {
+d3.json("json/Json_Statewise.json", function(error, data) {
   if (error) throw error;
 
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "state"; }));

@@ -9,7 +9,7 @@ var y = d3.scale.linear()
     .rangeRound([height, 0]);
 
 var color = d3.scale.ordinal()
-    .range(["#a05d56", "#8a89a6", "#7b6888", "#6b486b", "#98abc5", "#d0743c", "#ff8c00"]);
+    .range(["#a05d56","#ff9933","#cccccc","#cccc99",	"#ff0000" , "#a05d56", "#8a89a6", "#7b6888", "#6b486b", "#98abc5", "#d0743c", "#ff8c00"]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -26,7 +26,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("../json/Json_Northeast.json", function(error, ndata) {
+d3.json("json/Json_Northeast.json", function(error, ndata) {
   if (error) throw error;
 
   var data=[];

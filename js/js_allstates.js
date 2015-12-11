@@ -71,7 +71,6 @@ var csvtojson = function(csv) {
 
      }
 
-
      var output = function (){
       var final = [];
       final.push.apply(final, result1);

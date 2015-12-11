@@ -21,6 +21,13 @@
         "IlliterateFemale": 6900161
     },
     {
+        "state": "CHANDIGARH",
+        "LiterateMale": 542484,
+        "LiterateFemale": 394888,
+        "IlliterateMale": 144535,
+        "IlliterateFemale": 172629
+    },
+    {
         "state": "UTTARAKHAND",
         "LiterateMale": 4664018,
         "LiterateFemale": 3601287,
@@ -28,11 +35,18 @@
         "IlliterateFemale": 2414396
     },
     {
-        "state": "CHANDIGARH",
-        "LiterateMale": 542484,
-        "LiterateFemale": 394888,
-        "IlliterateMale": 144535,
-        "IlliterateFemale": 172629
+        "state": "HARYANA",
+        "LiterateMale": 11543789,
+        "LiterateFemale": 7965494,
+        "IlliterateMale": 4660601,
+        "IlliterateFemale": 6295193
+    },
+    {
+        "state": "NCT OF DELHI",
+        "LiterateMale": 8321680,
+        "LiterateFemale": 6350946,
+        "IlliterateMale": 2154446,
+        "IlliterateFemale": 2773178
     },
     {
         "state": "RAJASTHAN",
@@ -49,13 +63,6 @@
         "IlliterateFemale": 61214908
     },
     {
-        "state": "HARYANA",
-        "LiterateMale": 11543789,
-        "LiterateFemale": 7965494,
-        "IlliterateMale": 4660601,
-        "IlliterateFemale": 6295193
-    },
-    {
         "state": "BIHAR",
         "LiterateMale": 35908684,
         "LiterateFemale": 23516107,
@@ -68,27 +75,6 @@
         "LiterateFemale": 269497,
         "IlliterateMale": 101044,
         "IlliterateFemale": 132930
-    },
-    {
-        "state": "NCT OF DELHI",
-        "LiterateMale": 8321680,
-        "LiterateFemale": 6350946,
-        "IlliterateMale": 2154446,
-        "IlliterateFemale": 2773178
-    },
-    {
-        "state": "ARUNACHAL PRADESH",
-        "LiterateMale": 720098,
-        "LiterateFemale": 563080,
-        "IlliterateMale": 462204,
-        "IlliterateFemale": 590166
-    },
-    {
-        "state": "NAGALAND",
-        "LiterateMale": 1334871,
-        "LiterateFemale": 1173537,
-        "IlliterateMale": 555805,
-        "IlliterateFemale": 625262
     },
     {
         "state": "MANIPUR",
@@ -210,18 +196,25 @@
         "IlliterateFemale": 200600
     },
     {
-        "state": "LAKSHADWEEP",
-        "LiterateMale": 53684,
-        "LiterateFemale": 48445,
-        "IlliterateMale": 9954,
-        "IlliterateFemale": 13510
-    },
-    {
         "state": "KERALA",
         "LiterateMale": 15108442,
         "LiterateFemale": 15796391,
         "IlliterateMale": 2634981,
         "IlliterateFemale": 3390659
+    },
+    {
+        "state": "ARUNACHAL PRADESH",
+        "LiterateMale": 720098,
+        "LiterateFemale": 563080,
+        "IlliterateMale": 462204,
+        "IlliterateFemale": 590166
+    },
+    {
+        "state": "NAGALAND",
+        "LiterateMale": 1334871,
+        "LiterateFemale": 1173537,
+        "IlliterateMale": 555805,
+        "IlliterateFemale": 625262
     },
     {
         "state": "TAMIL NADU",
@@ -231,17 +224,24 @@
         "IlliterateFemale": 15440978
     },
     {
-        "state": "ANDAMAN & NICOBAR ISLANDS",
-        "LiterateMale": 174700,
-        "LiterateFemale": 138239,
-        "IlliterateMale": 42902,
-        "IlliterateFemale": 53270
-    },
-    {
         "state": "PUDUCHERRY",
         "LiterateMale": 568823,
         "LiterateFemale": 523515,
         "IlliterateMale": 139200,
         "IlliterateFemale": 212740
+    },
+    {
+        "state": "LAKSHADWEEP",
+        "LiterateMale": 53684,
+        "LiterateFemale": 48445,
+        "IlliterateMale": 9954,
+        "IlliterateFemale": 13510
+    },
+    {
+        "state": "ANDAMAN & NICOBAR ISLANDS",
+        "LiterateMale": 174700,
+        "LiterateFemale": 138239,
+        "IlliterateMale": 42902,
+        "IlliterateFemale": 53270
     }
 ]
